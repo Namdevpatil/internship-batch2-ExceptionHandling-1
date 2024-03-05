@@ -1,0 +1,29 @@
+Question: Why we use Exception Handling in Java?
+
+Answer: To maintain the normal flow of a java program execution.
+
+=> To implement ExceptionHandling in java we use,
+
+- blocks:
+	- try block: it has problematic part
+	- catch block: it has handler part
+	- finally block: it has resource/connection release/close mandatory statements.
+	
+- keywords:
+	 - throws: use to declare exceptions(predefined/user defined) classes with method signature/header.
+	 - throw: use to define/create an Exception object in method body.
+	 
+---------------------------------------------------------------------------
+
+-The 'Throwable' class is the superclass/root class of all errors and 
+ exceptions in the Java language.
+ 
+ Throwable class has two sub classes, they are Error and Exception
+ 
+-Java Exceptions divided are into 2 types
+		- predefined exceptions: exceptions classes part of the JRE libraries
+				- Checked Exceptions: 
+							Except Runtime Exception and its sub classes, whatever remaining exceptions there in Exception class, those are called checked exceptions.
+				- Unchecked Exceptions: 
+							- Runtime exceptions and its sub classes
+		- user-defined exceptions: exceptions which are created based on predefined exceptions
